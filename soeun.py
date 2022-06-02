@@ -1,6 +1,3 @@
-#import pandas as pd
-
-
 #랜덤 행렬 생성 위해 numpy 모듈 import
 import numpy as np
 
@@ -15,3 +12,12 @@ ar = np.random.randint(10, size=(n,n))
 array = ar+1
 '''
 print(array)
+
+
+#솔루션을 csv 파일로 출력하여 저장
+import pandas as pd
+result_assigned = [저장,할,리스트,데이터]
+df = pd.DataFrame(result_assigned, columns = ['cost'])
+print(df)
+
+df.to_csv("team13_groupwork\output\result.csv", index = False)
