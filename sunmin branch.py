@@ -36,4 +36,4 @@ import pandas as pd
 arr = np.array(answer)
 df = pd.DataFrame(arr)
 
-df.to_csv('team13_groupworkoutputresult.csv', index=False)      #csv에서 결과값은 2번째 줄부터 기계별 비을 (행,열)로 나타냄
+df.to_csv('team13_groupworkoutputresult.csv', index=False)      #csv에서 결과값은 2번째 줄부터 기계별 비용을 (행,열)로 나타냄
