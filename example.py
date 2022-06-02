@@ -1,8 +1,8 @@
 import numpy as np
 
-n=3
+n=5
 import random
 
-array = np.random.randint(10, size=(n,n))
-
+ar = np.random.randint(10, size=(n,n))
+array = ar+1
 print(array)
