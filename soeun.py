@@ -15,9 +15,19 @@ print(array)
 
 
 #솔루션을 csv 파일로 출력하여 저장
+ #1
 import pandas as pd
 result_assigned = [저장,할,리스트,데이터]
 df = pd.DataFrame(result_assigned, columns = ['cost'])
 print(df)
 
-df.to_csv("team13_groupwork\output\result.csv", index = False)
+df.to_csv("team13_groupwork\output\result.csv", index=False)
+
+
+ #2
+import pandas as pd
+result_assigned = [저장,할,리스트,데이터]
+df = pd.DataFrame(result_assigned)
+df.to_csv("team13_groupwork\output\result.csv", header=False, index=False)
+
+print(df)
