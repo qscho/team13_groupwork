@@ -29,11 +29,11 @@ while c<=100000:  #10만번 반복
         answer=li
 
 print(cost)
-print(answer)
+print(answer)                       # 결과값은 비용의 합과 그때의 기계별 비용을 (행,열)로 나타냄
 
 import pandas as pd
 
 arr = np.array(answer)
 df = pd.DataFrame(arr)
 
-df.to_csv('결과값.csv', index=False)     # csv에서 결과값의 의미하는 것은 *행 *열이 최적해라는 것
+df.to_csv('team13_groupworkoutputresult.csv', index=False)      #csv에서 결과값은 2번째 줄부터 기계별 비을 (행,열)로 나타냄
