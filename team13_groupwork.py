@@ -3,10 +3,9 @@ import random
 
 n = int(input("2부터 6까지의 숫자 중 하나를 입력하세요: "))  #숫자 입력받음
 
-ar = np.random.randint(10, size=(n, n))
+ar = np.random.randint(10, size=(n, n))  #1부터 10까지 랜덤으로 cost를 가지는 행렬 생성 및 출력
 array = ar + 1
 print(array)
-##1부터 10까지 랜덤으로 cost를 가지는 행렬 생성 완료
 
 answer = []  #최종 답 리스트
 cost=100000   #초기 값을 매우 크게 설정
